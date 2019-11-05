@@ -16,9 +16,9 @@ public class Indexacion {
 		
 		//Create solr document
 		SolrInputDocument doc = new SolrInputDocument();
-		doc.addField("name", "Manuel de la Villa");
-		doc.addField("age", 46);
-                doc.addField("email", "manuel.villa@dti.uhu.es");
+		doc.addField("name", "Felix Sancha Cimbora");
+		doc.addField("age", 23);
+                doc.addField("email", "felixscimbora@gmail.com");
 		solr.add(doc);
 		solr.commit();
 	}
